@@ -1,0 +1,532 @@
+body {
+    background-color: #F8F9FA;
+}
+
+
+header h2 {
+    background-color: #333333;
+    color: white;
+    padding: 60px;
+    font-size: 50px;
+    text-align: center;
+    font-family: serif;
+}
+
+
+.navigation {
+    background-color: #fee2b3;
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.navigation a:hover,
+.dropbtn:hover {
+    color: #555;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    min-width: 200px;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    width: 84%;
+}
+
+.upload {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(assests/hero_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.leftsidecolumn {
+    display: grid;
+    flex: 1;
+    padding: 50px;
+    max-width: 50%;
+}
+
+.leftsidecolumn h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.leftsidecolumn strong {
+    font-weight: 900;
+}
+
+.leftsidecolumn p {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.rightsidecolumn {
+    flex: 1;
+    max-width: 400px;
+    padding: 100px;
+}
+
+.rightsidecolumn h3 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.order-form {
+    width: 110%;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.order-form input[type="text"] {
+    width: 92%;
+    padding: 12px;
+
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.order-form input[type="email"] {
+    width: 92%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.order-form input {
+    width: 90%;
+    padding: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-size: 20px;
+}
+
+button {
+    width: 97%;
+    background-color: #fee2b3;
+    color: #212529;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: #fee2b3;
+}
+
+button:hover {
+    background-color: orange;
+    transition: 2s;
+
+}
+
+
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+.Areas h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: inherit;
+}
+
+.Areas p {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+
+
+.Practice_Areas {
+    text-align: center;
+    padding: 40px;
+}
+
+.practise_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.practise_card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.practise_card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Legal-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.Legal-section .containar {
+    display: flex;
+    gap: 20px;
+}
+
+
+.Legal-section .containar img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.Legal-section .text-container {
+    max-width: 500px;
+}
+
+
+.Legal-section .text-container h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+
+.Legal-section .text-container p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.book {
+    width: 62%;
+    background-color: #fee2b3;
+    color: #212529;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+.book :hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 0px;
+}
+
+
+.Testimonials {
+    padding: 50px 20px;
+}
+
+.Testimonials h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.Testimonials-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.Testimonials-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    margin-top: -15px;
+}
+
+.Testimonials-header p {
+    margin-top: -15px;
+    color: #cccccc;
+}
+
+.Testimonials-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Testimonials-text {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+textarea {
+    width: 98%;
+    height: auto;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+.form input[type="text"] {
+    width: 46%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.form input[type="email"] {
+    width: 96%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rightcolumn {
+    display: grid;
+    flex: 1;
+    max-width: 400px;
+    padding: 50px;
+    background-color: #fff;
+    width: 20%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.Solutions {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.Solutions .Legal {
+    display: flex;
+    gap: 20px;
+}
+
+
+.Solutions .Legal img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.Solutions .text-container {
+    max-width: 500px;
+}
+
+
+.Solutions .text-container h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+.Solutions .text-container p {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+
+.list {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+footer {
+    background-image: url(assests/hero_bg_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-section .Sheet{
+    width: 20%;
+}
+
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    display: flex;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+   
+   color: white;
+}
+
+
+.social-icons{
+    margin-top: 15px;
+
+}
+
+.social-icons a{
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    color: white;
+    background-color: #fee2b3;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
+.footer-last{
+    text-align: center;
+   margin-top: 50px;
+   padding-bottom: 50px;
+   font-size: 18px;
+   border-top: 1px solid #fff;
+}
+
+
+.footer-last a{
+    color: white;
+    text-decoration: none;
+}
